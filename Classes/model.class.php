@@ -16,12 +16,12 @@ class Model {
   }
   
   // list table
-  public function List_Table () {
-    $SQL = "show tables";
-    $RES = $this->PDO->prepare($SQL);
+  public function Request ($sql) {
+    $RES = $this->PDO->prepare($sql);
     $RES->execute();
     return $RES->fetchAll();
   }
+  
   
 }
 

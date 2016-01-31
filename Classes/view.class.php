@@ -17,7 +17,25 @@ class View {
       $menu .= "</div>";
       
       return $menu;
-    }    
+    }
+    
+    // Retourne l'affichage des différents choix de requêtes dans la bdd
+    public static function funclist (){
+        $content = "
+            <nav>
+                <ul>
+                    <li><a href='?T=".$_GET['T']."&amp;req=List'>Lister champ</a></li>
+                </ul>
+            </nav>
+        ";
+        
+        return $content;
+    }
+    
+    // Retourne l'affichage des résultats d'un SELECT dans une base précise
+    public static function list(){
+        
+    }
     
     // html final rendering
     public static function HTML ($title, $contener) {
