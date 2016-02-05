@@ -20,8 +20,11 @@ require_once("Classes/view.class.php");
 // html output increment
 $OUTPUT = NULL;
 
-if(isset($_GET["T"])){
+if(isset($_GET["T"]) && !isset($_GET["req"])){
     $OUTPUT .= View::funclist();
+}
+elseif(isset($_GET["T"]) && isset($_GET["req"])){
+    $OUTPUT .=View::liste($MODEL->request("SELECT * FROM ".$_GET["T"]));
 }
 else{
     // set the menu based on tables

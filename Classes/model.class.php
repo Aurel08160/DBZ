@@ -19,9 +19,8 @@ class Model {
   public function Request ($sql) {
     $RES = $this->PDO->prepare($sql);
     $RES->execute();
-    return $RES->fetchAll();
+    return $RES->fetchAll(PDO::FETCH_ASSOC);
   }
-  
   
 }
 
