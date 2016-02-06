@@ -51,6 +51,7 @@ class View {
                 }
                 $list.= "<td>$v2</td>";
             }
+            $list .="<td><a href='?T=".$_GET['T']."&amp;key=".$test[0]."&amp;val=".$value[$test[0]]."&amp;req=Suppr'>Suppr</a></td>";
             $i++;
             $list.= "</tr>";
         }

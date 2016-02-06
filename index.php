@@ -19,16 +19,30 @@ require_once("Classes/view.class.php");
 
 // html output increment
 $OUTPUT = NULL;
+// set the menu based on tabless
+$OUTPUT .= View::MenuTable ($MODEL->Name_DB(), $MODEL->request("SHOW TABLES"));
 
-if(isset($_GET["T"]) && !isset($_GET["req"])){
+if(isset($_GET["T"]) && isset($_GET["req"])){
+    if($_GET['req'] == "Suppr"){
+        if(isset($_GET["key"]) && isset($_GET["val"])){
+            if(!$res = $MODEL->exec_request("DELETE FROM ".$_GET['T']." WHERE ".$_GET['key']."=".$_GET['val'])){
+                $OUTPUT .= "Erreur SQL";
+            }
+            else{
+                header("Location: index.php?T=".$_GET['T']."&req=List");
+                exit();
+            }
+        }
+        else{
+            $OUTPUT .= "<p>Erreur d'arguments</p>";
+        }
+    }
+    else{
+        $OUTPUT .= View::liste($MODEL->request("SELECT * FROM " . $_GET["T"]));
+    }
+}
+elseif(isset($_GET["T"])){
     $OUTPUT .= View::funclist();
-}
-elseif(isset($_GET["T"]) && isset($_GET["req"])){
-    $OUTPUT .=View::liste($MODEL->request("SELECT * FROM ".$_GET["T"]));
-}
-else{
-    // set the menu based on tables
-    $OUTPUT .= View::MenuTable ($MODEL->Name_DB(), $MODEL->request("SHOW TABLES"));
 }
 
 
