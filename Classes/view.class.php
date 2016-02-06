@@ -11,14 +11,16 @@ class View {
       $menu = "<div>DB : ".$db_name;
       
       foreach ($array_table as $K => $TABLE) {
-        $menu .= " <a href='?T=".$TABLE[0]."'>[ ".strtoupper($TABLE[0])." ]</a>";
+          foreach($TABLE as $key => $value){
+              $menu .= " <a href='?T=".$value."'>[ ".strtoupper($value)." ]</a>";
+          }
       }
       
       $menu .= "</div>";
       
       return $menu;
     }
-     
+
     // Retourne l'affichage des différents choix de requêtes dans la bdd
     public static function funclist (){
         $content = "
