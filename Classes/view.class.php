@@ -51,7 +51,8 @@ class View {
                 }
                 $list.= "<td>$v2</td>";
             }
-            $list .="<td><a href='?T=".$_GET['T']."&amp;key=".$test[0]."&amp;val=".$value[$test[0]]."&amp;req=Suppr'>Suppr</a></td>";
+            $list .="<td><a href='?T=".$_GET['T']."&amp;key=".$test[0]."&amp;val=".$value[$test[0]]."&amp;req=Suppr'>Supprimer</a></td>";
+            $list .="<td><a href='?T=".$_GET['T']."&amp;key=".$test[0]."&amp;val=".$value[$test[0]]."&amp;req=Modif'>Modifier</a></td>";
             $i++;
             $list.= "</tr>";
         }
@@ -63,7 +64,20 @@ class View {
         $list.="</table>";
         return $list;
     }
-    
+
+    public static function Modif_form($res){
+        $form = "<form>";
+        foreach($res as $key => $value){
+            foreach($value as $key2 => $v2){
+                $form .= "<input type='text' name='$key2' placeholder='$key2' value='$v2'>";
+            }
+        }
+        $form.="<input type='submit' name='Modif' value='Modifier'>";
+
+        return $form;
+
+    }
+
     // html final rendering
     public static function HTML ($title, $contener) {
       echo "<html>

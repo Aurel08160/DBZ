@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c67c73b9-6343-4ebf-b8cd-ee74d7e9b3fd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/model.class.php" afterPath="$PROJECT_DIR$/Classes/model.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/view.class.php" afterPath="$PROJECT_DIR$/Classes/view.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
@@ -26,43 +25,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58688146">
-              <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+            <state vertical-scroll-proportion="-25.5">
+              <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
               <folding>
-                <marker date="1454753124070" expanded="true" signature="729:741" placeholder="DELETE FROM ..." />
-                <marker date="1454753124070" expanded="true" signature="729:761" placeholder="DELETE FROM ..." />
-                <marker date="1454753124070" expanded="true" signature="729:762" placeholder="DELETE FROM ..." />
-                <marker date="1454753124070" expanded="true" signature="729:763" placeholder="DELETE FROM ..." />
-                <marker date="1454753124070" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
-                <marker date="1454753124070" expanded="true" signature="729:780" placeholder="DELETE FROM ..." />
-                <marker date="1454753124070" expanded="true" signature="1131:1144" placeholder="SELECT * FRO..." />
-                <marker date="1454753124070" expanded="true" signature="1131:1145" placeholder="SELECT * FRO..${$_GET}..." />
+                <marker date="1454754509019" expanded="true" signature="729:741" placeholder="DELETE FROM ..." />
+                <marker date="1454754509019" expanded="true" signature="729:761" placeholder="DELETE FROM ..." />
+                <marker date="1454754509019" expanded="true" signature="729:762" placeholder="DELETE FROM ..." />
+                <marker date="1454754509019" expanded="true" signature="729:763" placeholder="DELETE FROM ..." />
+                <marker date="1454754509019" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
+                <marker date="1454754509019" expanded="true" signature="729:780" placeholder="DELETE FROM ..." />
+                <marker date="1454754509019" expanded="true" signature="1220:1233" placeholder="SELECT * FRO..." />
+                <marker date="1454754509019" expanded="true" signature="1220:1234" placeholder="SELECT * FRO..${$_GET}..." />
+                <marker date="1454754509019" expanded="true" signature="1220:1254" placeholder="SELECT * FRO..${$_GET['T']}..." />
+                <marker date="1454754509019" expanded="true" signature="1220:1255" placeholder="SELECT * FRO..${$_GET['T']}..." />
+                <marker date="1454754509019" expanded="true" signature="1220:1256" placeholder="SELECT * FRO..${$_GET['T']}..." />
+                <marker date="1454754509019" expanded="true" signature="1220:1272" placeholder="SELECT * FRO..${$_GET['T']}..." />
+                <marker date="1454754509019" expanded="true" signature="1364:1377" placeholder="SELECT * FRO..." />
+                <marker date="1454754509019" expanded="true" signature="1364:1378" placeholder="SELECT * FRO..${$_GET}..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.class.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="view.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Classes/view.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="14.307693">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.863061">
+              <caret line="74" column="69" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
               <folding>
-                <marker date="1454750518204" expanded="true" signature="633:782" placeholder="..." />
-                <marker date="1454750518204" expanded="true" signature="654:742" placeholder="..." />
-                <marker date="1454750518204" expanded="true" signature="654:763" placeholder="..." />
-                <marker date="1454750518204" expanded="true" signature="1029:1707" placeholder="..." />
-                <marker date="1454750518204" expanded="true" signature="1116:1117" placeholder="..." />
-                <marker date="1454750518204" expanded="true" signature="1116:1129" placeholder="..." />
-                <marker date="1454750518204" expanded="true" signature="1116:1517" placeholder="..." />
-                <marker date="1454750518204" expanded="true" signature="1843:2111" placeholder="..." />
-                <marker date="1454750518204" expanded="true" signature="1856:1909" placeholder="..." />
-                <marker date="1454750518204" expanded="true" signature="1856:1984" placeholder="..." />
-                <marker date="1454750518204" expanded="true" signature="1997:2015" placeholder="..." />
-                <marker date="1454750518204" expanded="true" signature="1997:2097" placeholder="..." />
+                <marker date="1454754685236" expanded="true" signature="633:782" placeholder="..." />
+                <marker date="1454754685236" expanded="true" signature="654:742" placeholder="..." />
+                <marker date="1454754685236" expanded="true" signature="654:763" placeholder="..." />
+                <marker date="1454754685236" expanded="true" signature="1029:1848" placeholder="..." />
+                <marker date="1454754685236" expanded="true" signature="1116:1117" placeholder="..." />
+                <marker date="1454754685236" expanded="true" signature="1116:1129" placeholder="..." />
+                <marker date="1454754685236" expanded="true" signature="1116:1658" placeholder="..." />
+                <marker date="1454754685236" expanded="true" signature="2355:2623" placeholder="..." />
+                <marker date="1454754685236" expanded="true" signature="2368:2421" placeholder="..." />
+                <marker date="1454754685236" expanded="true" signature="2368:2496" placeholder="..." />
+                <marker date="1454754685236" expanded="true" signature="2509:2527" placeholder="..." />
+                <marker date="1454754685236" expanded="true" signature="2509:2609" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -107,9 +112,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Config/ID-VARS-DB.ini" />
-        <option value="$PROJECT_DIR$/Classes/view.class.php" />
         <option value="$PROJECT_DIR$/Classes/model.class.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Classes/view.class.php" />
       </list>
     </option>
   </component>
@@ -268,14 +273,20 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
           <folding>
-            <marker date="1454753124070" expanded="true" signature="729:741" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:761" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:762" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:763" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:780" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="1131:1144" placeholder="SELECT * FRO..." />
-            <marker date="1454753124070" expanded="true" signature="1131:1145" placeholder="SELECT * FRO..${$_GET}..." />
+            <marker date="1454754509019" expanded="true" signature="729:741" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:761" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:762" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:763" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:780" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1233" placeholder="SELECT * FRO..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1234" placeholder="SELECT * FRO..${$_GET}..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1254" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1255" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1256" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1272" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1454754509019" expanded="true" signature="1364:1377" placeholder="SELECT * FRO..." />
+            <marker date="1454754509019" expanded="true" signature="1364:1378" placeholder="SELECT * FRO..${$_GET}..." />
           </folding>
         </state>
       </provider>
@@ -285,18 +296,18 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1454750518204" expanded="true" signature="633:782" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="654:742" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="654:763" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1029:1707" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1116:1117" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1116:1129" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1116:1517" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1843:2111" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1856:1909" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1856:1984" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1997:2015" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1997:2097" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="633:782" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="654:742" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="654:763" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="1029:1848" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="1116:1117" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="1116:1129" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="1116:1658" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2355:2623" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2368:2421" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2368:2496" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2509:2527" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2509:2609" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -314,14 +325,20 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
           <folding>
-            <marker date="1454753124070" expanded="true" signature="729:741" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:761" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:762" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:763" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:780" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="1131:1144" placeholder="SELECT * FRO..." />
-            <marker date="1454753124070" expanded="true" signature="1131:1145" placeholder="SELECT * FRO..${$_GET}..." />
+            <marker date="1454754509019" expanded="true" signature="729:741" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:761" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:762" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:763" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:780" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1233" placeholder="SELECT * FRO..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1234" placeholder="SELECT * FRO..${$_GET}..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1254" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1255" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1256" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1272" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1454754509019" expanded="true" signature="1364:1377" placeholder="SELECT * FRO..." />
+            <marker date="1454754509019" expanded="true" signature="1364:1378" placeholder="SELECT * FRO..${$_GET}..." />
           </folding>
         </state>
       </provider>
@@ -331,18 +348,18 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1454750518204" expanded="true" signature="633:782" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="654:742" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="654:763" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1029:1707" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1116:1117" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1116:1129" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1116:1517" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1843:2111" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1856:1909" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1856:1984" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1997:2015" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1997:2097" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="633:782" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="654:742" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="654:763" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="1029:1848" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="1116:1117" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="1116:1129" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="1116:1658" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2355:2623" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2368:2421" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2368:2496" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2509:2527" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2509:2609" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -360,14 +377,20 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
           <folding>
-            <marker date="1454753124070" expanded="true" signature="729:741" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:761" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:762" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:763" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:780" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="1131:1144" placeholder="SELECT * FRO..." />
-            <marker date="1454753124070" expanded="true" signature="1131:1145" placeholder="SELECT * FRO..${$_GET}..." />
+            <marker date="1454754509019" expanded="true" signature="729:741" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:761" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:762" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:763" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:780" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1233" placeholder="SELECT * FRO..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1234" placeholder="SELECT * FRO..${$_GET}..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1254" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1255" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1256" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1272" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1454754509019" expanded="true" signature="1364:1377" placeholder="SELECT * FRO..." />
+            <marker date="1454754509019" expanded="true" signature="1364:1378" placeholder="SELECT * FRO..${$_GET}..." />
           </folding>
         </state>
       </provider>
@@ -377,18 +400,18 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1454750518204" expanded="true" signature="633:782" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="654:742" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="654:763" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1029:1707" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1116:1117" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1116:1129" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1116:1517" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1843:2111" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1856:1909" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1856:1984" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1997:2015" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1997:2097" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="633:782" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="654:742" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="654:763" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="1029:1848" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="1116:1117" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="1116:1129" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="1116:1658" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2355:2623" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2368:2421" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2368:2496" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2509:2527" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2509:2609" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -406,14 +429,20 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
           <folding>
-            <marker date="1454753124070" expanded="true" signature="729:741" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:761" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:762" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:763" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:780" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="1131:1144" placeholder="SELECT * FRO..." />
-            <marker date="1454753124070" expanded="true" signature="1131:1145" placeholder="SELECT * FRO..${$_GET}..." />
+            <marker date="1454754509019" expanded="true" signature="729:741" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:761" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:762" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:763" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:780" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1233" placeholder="SELECT * FRO..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1234" placeholder="SELECT * FRO..${$_GET}..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1254" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1255" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1256" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1272" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1454754509019" expanded="true" signature="1364:1377" placeholder="SELECT * FRO..." />
+            <marker date="1454754509019" expanded="true" signature="1364:1378" placeholder="SELECT * FRO..${$_GET}..." />
           </folding>
         </state>
       </provider>
@@ -423,18 +452,18 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1454750518204" expanded="true" signature="633:782" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="654:742" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="654:763" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1029:1707" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1116:1117" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1116:1129" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1116:1517" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1843:2111" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1856:1909" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1856:1984" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1997:2015" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1997:2097" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="633:782" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="654:742" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="654:763" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="1029:1848" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="1116:1117" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="1116:1129" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="1116:1658" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2355:2623" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2368:2421" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2368:2496" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2509:2527" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2509:2609" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -471,40 +500,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/view.class.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="14.307693">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state vertical-scroll-proportion="-25.5">
+          <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
           <folding>
-            <marker date="1454750518204" expanded="true" signature="633:782" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="654:742" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="654:763" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1029:1707" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1116:1117" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1116:1129" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1116:1517" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1843:2111" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1856:1909" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1856:1984" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1997:2015" placeholder="..." />
-            <marker date="1454750518204" expanded="true" signature="1997:2097" placeholder="..." />
+            <marker date="1454754509019" expanded="true" signature="729:741" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:761" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:762" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:763" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="729:780" placeholder="DELETE FROM ..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1233" placeholder="SELECT * FRO..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1234" placeholder="SELECT * FRO..${$_GET}..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1254" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1255" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1256" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1454754509019" expanded="true" signature="1220:1272" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1454754509019" expanded="true" signature="1364:1377" placeholder="SELECT * FRO..." />
+            <marker date="1454754509019" expanded="true" signature="1364:1378" placeholder="SELECT * FRO..${$_GET}..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/Classes/view.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58688146">
-          <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.863061">
+          <caret line="74" column="69" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
           <folding>
-            <marker date="1454753124070" expanded="true" signature="729:741" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:761" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:762" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:763" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="729:780" placeholder="DELETE FROM ..." />
-            <marker date="1454753124070" expanded="true" signature="1131:1144" placeholder="SELECT * FRO..." />
-            <marker date="1454753124070" expanded="true" signature="1131:1145" placeholder="SELECT * FRO..${$_GET}..." />
+            <marker date="1454754685236" expanded="true" signature="633:782" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="654:742" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="654:763" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="1029:1848" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="1116:1117" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="1116:1129" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="1116:1658" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2355:2623" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2368:2421" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2368:2496" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2509:2527" placeholder="..." />
+            <marker date="1454754685236" expanded="true" signature="2509:2609" placeholder="..." />
           </folding>
         </state>
       </provider>

@@ -25,7 +25,7 @@ $OUTPUT .= View::MenuTable ($MODEL->Name_DB(), $MODEL->request("SHOW TABLES"));
 if(isset($_GET["T"]) && isset($_GET["req"])){
     if($_GET['req'] == "Suppr"){
         if(isset($_GET["key"]) && isset($_GET["val"])){
-            if(!$res = $MODEL->exec_request("DELETE FROM ".$_GET['T']." WHERE ".$_GET['key']."=".$_GET['val'])){
+            if(!$res = $MODEL->Exec_request("DELETE FROM ".$_GET['T']." WHERE ".$_GET['key']."=".$_GET['val'])){
                 $OUTPUT .= "Erreur SQL";
             }
             else{
@@ -35,6 +35,11 @@ if(isset($_GET["T"]) && isset($_GET["req"])){
         }
         else{
             $OUTPUT .= "<p>Erreur d'arguments</p>";
+        }
+    }
+    elseif($_GET["req"]=="Modif"){
+        if(isset($_GET["key"]) && isset($_GET["val"])){
+           $OUTPUT .= View::Modif_form($MODEL->Request("SELECT * FROM ".$_GET['T']." WHERE ".$_GET['key']."=".$_GET['val']));
         }
     }
     else{
