@@ -36,16 +36,29 @@ class View {
     
     // Retourne l'affichage des résultats d'un SELECT dans une base précise
     public static function liste($res){
+        $test = null;
+        $i=0;
+        $j=0;
         $list = "<table>";
         foreach($res as $key => $value){
             $list .= "
                 <tr>
             ";
             foreach($value as $key2 => $v2){
+                if($i==0){
+                    $test[$j]=$key2;
+                    $j++;
+                }
                 $list.= "<td>$v2</td>";
             }
+            $i++;
             $list.= "</tr>";
         }
+        $list.="<thead><tr>";
+        foreach($test as $key3 => $v3){
+            $list .= "<th>".$v3."</th>";
+        }
+        $list.="</tr></thead>";
         $list.="</table>";
         return $list;
     }
