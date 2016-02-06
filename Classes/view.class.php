@@ -18,7 +18,7 @@ class View {
       
       return $menu;
     }
-    
+     
     // Retourne l'affichage des différents choix de requêtes dans la bdd
     public static function funclist (){
         $content = "
