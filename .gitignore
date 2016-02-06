@@ -48,3 +48,4 @@ Temporary Items
 Config/ID-VARS-DB.ini
 idea/
 *.xml
+.idea/workspace.xml
