@@ -11,14 +11,16 @@ class View {
       $menu = "<div>DB : ".$db_name;
       
       foreach ($array_table as $K => $TABLE) {
-        $menu .= " <a href='?T=".$TABLE[0]."'>[ ".strtoupper($TABLE[0])." ]</a>";
+          foreach($TABLE as $key => $value){
+              $menu .= " <a href='?T=".$value."'>[ ".strtoupper($value)." ]</a>";
+          }
       }
       
       $menu .= "</div>";
       
       return $menu;
     }
-    
+
     // Retourne l'affichage des différents choix de requêtes dans la bdd
     public static function funclist (){
         $content = "
@@ -34,20 +36,49 @@ class View {
     
     // Retourne l'affichage des résultats d'un SELECT dans une base précise
     public static function liste($res){
+        $row = null;
+        $i=0;
+        $j=0;
         $list = "<table>";
         foreach($res as $key => $value){
             $list .= "
                 <tr>
             ";
             foreach($value as $key2 => $v2){
+                if($i==0){
+                    $row[$j]=$key2;
+                    $j++;
+                }
                 $list.= "<td>$v2</td>";
             }
+            $list .="<td><a href='?T=".$_GET['T']."&amp;key=".$row[0]."&amp;val=".$value[$row[0]]."&amp;req=Suppr'>Supprimer</a></td>";
+            $list .="<td><a href='?T=".$_GET['T']."&amp;key=".$row[0]."&amp;val=".$value[$row[0]]."&amp;req=Modif'>Modifier</a></td>";
+            $i++;
             $list.= "</tr>";
         }
+        $list.="<thead><tr>";
+        foreach($row as $key3 => $v3){
+            $list .= "<th>".$v3."</th>";
+        }
+        $list.="</tr></thead>";
         $list.="</table>";
         return $list;
     }
-    
+
+    // Renvoi le formulaire de modification de champ
+    public static function Modif_form($res){
+        $form = "<form method='POST' action='?req=Modif&amp;T=".$_GET['T']."'>";
+        foreach($res as $key => $value){
+            foreach($value as $key2 => $v2){
+                $form .= "<input type='text' name='$key2' placeholder='$key2' value='$v2'>";
+            }
+        }
+        $form.="<input type='submit' name='Modif' value='Modifier'>";
+
+        return $form;
+
+    }
+
     // html final rendering
     public static function HTML ($title, $contener) {
       echo "<html>

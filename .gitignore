@@ -46,3 +46,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 Config/ID-VARS-DB.ini
+idea/
+*.xml
+.idea/workspace.xml

@@ -18,8 +18,15 @@ class Model {
   // list table
   public function Request ($sql) {
     $RES = $this->PDO->prepare($sql);
-    $RES->execute();
-    return $RES->fetchAll(PDO::FETCH_ASSOC);
+    if($RES->execute()) return $RES->fetchAll(PDO::FETCH_ASSOC);
+    else return false;
+
+  }
+
+  public function Exec_request($sql){
+    $RES = $this->PDO->prepare($sql);
+    if($RES->execute()) return true;
+    else return false;
   }
   
 }
