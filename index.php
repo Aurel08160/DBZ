@@ -19,9 +19,65 @@ require_once("Classes/view.class.php");
 
 // html output increment
 $OUTPUT = NULL;
+// set the menu based on tabless
+$OUTPUT .= View::MenuTable ($MODEL->Name_DB(), $MODEL->request("SHOW TABLES"));
 
-// set the menu based on tables
-$OUTPUT .= View::MenuTable ($MODEL->Name_DB(), $MODEL->List_Table());
+if(isset($_GET["T"]) && isset($_GET["req"])){
+    if($_GET['req'] == "Suppr"){
+        if(isset($_GET["key"]) && isset($_GET["val"])){
+            if(!$res = $MODEL->Exec_request("DELETE FROM ".$_GET['T']." WHERE ".$_GET['key']."=".$_GET['val'])){
+                $OUTPUT .= "Erreur SQL";
+            }
+            else{
+                header("Location: index.php?T=".$_GET['T']."&req=List");
+                exit();
+            }
+        }
+        else{
+            $OUTPUT .= "<p>Erreur d'arguments</p>";
+        }
+    }
+    elseif($_GET["req"]=="Modif"){
+        if(isset($_GET["key"]) && isset($_GET["val"])){
+            $OUTPUT .= View::Modif_form($MODEL->Request("SELECT * FROM ".$_GET['T']." WHERE ".$_GET['key']."=".$_GET['val']));
+        }
+        elseif(isset($_POST["Modif"])){
+            $sql = "UPDATE ".$_GET['T']." SET ";
+            $first_key = null;
+            $first_val = null;
+            $first_get = false;
+            foreach($_POST as $key => $value){
+                if($key!="Modif"){
+                    if(!$first_get) {
+                        $first_key = $key;
+                        $first_val = $value;
+                        $first_get = true;
+                    }
+
+                    $val = intval($value);
+                    if(gettype($value)=="string" && strval($val)!=$value){
+                        $sql .= "$key = '$value', ";
+                    }
+                    else{
+                        $sql .= "$key = $value, ";
+                    }
+                }
+            }
+            $sql = rtrim($sql,", ");
+            $sql .= " WHERE $first_key = $first_val";
+            $MODEL->Exec_request($sql);
+            header("Location: index.php?T=".$_GET['T']."&req=List");
+        }
+    }
+    else{
+        $OUTPUT .= View::liste($MODEL->request("SELECT * FROM " . $_GET["T"]));
+    }
+}
+elseif(isset($_GET["T"])){
+    $OUTPUT .= View::funclist();
+}
+
+
 
 
 

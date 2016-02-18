@@ -16,11 +16,17 @@ class Model {
   }
   
   // list table
-  public function List_Table () {
-    $SQL = "show tables";
-    $RES = $this->PDO->prepare($SQL);
-    $RES->execute();
-    return $RES->fetchAll();
+  public function Request ($sql) {
+    $RES = $this->PDO->prepare($sql);
+    if($RES->execute()) return $RES->fetchAll(PDO::FETCH_ASSOC);
+    else return false;
+
+  }
+
+  public function Exec_request($sql){
+    $RES = $this->PDO->prepare($sql);
+    if($RES->execute()) return true;
+    else return false;
   }
   
 }
