@@ -39,7 +39,34 @@ if(isset($_GET["T"]) && isset($_GET["req"])){
     }
     elseif($_GET["req"]=="Modif"){
         if(isset($_GET["key"]) && isset($_GET["val"])){
-           $OUTPUT .= View::Modif_form($MODEL->Request("SELECT * FROM ".$_GET['T']." WHERE ".$_GET['key']."=".$_GET['val']));
+            $OUTPUT .= View::Modif_form($MODEL->Request("SELECT * FROM ".$_GET['T']." WHERE ".$_GET['key']."=".$_GET['val']));
+        }
+        elseif(isset($_POST["Modif"])){
+            $sql = "UPDATE ".$_GET['T']." SET ";
+            $first_key = null;
+            $first_val = null;
+            $first_get = false;
+            foreach($_POST as $key => $value){
+                if($key!="Modif"){
+                    if(!$first_get) {
+                        $first_key = $key;
+                        $first_val = $value;
+                        $first_get = true;
+                    }
+
+                    $val = intval($value);
+                    if(gettype($value)=="string" && strval($val)!=$value){
+                        $sql .= "$key = '$value', ";
+                    }
+                    else{
+                        $sql .= "$key = $value, ";
+                    }
+                }
+            }
+            $sql = rtrim($sql,", ");
+            $sql .= " WHERE $first_key = $first_val";
+            $MODEL->Exec_request($sql);
+            header("Location: index.php?T=".$_GET['T']."&req=List");
         }
     }
     else{
