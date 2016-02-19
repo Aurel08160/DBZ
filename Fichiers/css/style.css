@@ -1,1 +1,76 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    margin: 0;
+}
+
+div{
+    display: inline-block;
+    height: 96.7%;
+    background-color: rgb(100,100,100);
+    padding: 1em;
+}
+
+div a, div span{
+    display: block;
+    color: #FFF;
+    margin-bottom: 0.8em;
+}
+
+nav, table, form{
+    display: inline-block;
+    vertical-align: top;
+}
+
+table{
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th{
+    padding: 1em;
+}
+
+
+td:nth-child(odd), th:nth-child(odd){
+    background-color: rgb(136,145,151);
+}
+
+td:nth-child(even), th:nth-child(even){
+    background-color: rgb(159,170,176);
+}
+
+thead{
+    border-bottom: 1px solid black;
+}
+
+th:last-child{
+    border-right: 1px solid black;
+}
+
+td{
+    padding: 0.5em;
+}
+
+td a{
+    color: white;
+    text-decoration: none;
+}
+
+form{
+    margin-left: 2em;
+}
+
+form label{
+    display: inline-block;
+    width: 5em;
+}
+
+form input{
+    margin: 1em;
+}
+
 

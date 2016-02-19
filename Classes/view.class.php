@@ -8,7 +8,7 @@ class View {
     
     // menu list of table link
     public static function MenuTable ($db_name, $array_table) {
-      $menu = "<div>DB : ".$db_name;
+      $menu = "<div><span>DB : ".$db_name."</span>";
       
       foreach ($array_table as $K => $TABLE) {
           foreach($TABLE as $key => $value){
@@ -30,7 +30,6 @@ class View {
                 </ul>
             </nav>
         ";
-        
         return $content;
     }
     
@@ -70,7 +69,7 @@ class View {
         $form = "<form method='POST' action='?req=Modif&amp;T=".$_GET['T']."'>";
         foreach($res as $key => $value){
             foreach($value as $key2 => $v2){
-                $form .= "<input type='text' name='$key2' placeholder='$key2' value='$v2'>";
+                $form .= "<label>$key2</label><input type='text' name='$key2' placeholder='$key2' value='$v2'><br/>";
             }
         }
         $form.="<input type='submit' name='Modif' value='Modifier'>";
@@ -87,8 +86,8 @@ class View {
         <link rel='stylesheet' type='text/css' href='Fichiers/css/style.css' />
       </head>
       <body>
-        <img src='Fichiers/images/logo.jpg' /><br /><hr />
-        </hr>".$contener."
+       <!-- <img src='Fichiers/images/logo.jpg' /><br /><hr />
+        </hr>-->".$contener."
       </body>
       </html>";
     }

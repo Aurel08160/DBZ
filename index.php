@@ -80,7 +80,6 @@ elseif(isset($_GET["T"])){
 
 
 
-
 // output echo screen rendering 
 View::HTML($CONFIG['MODULE_NAME'], $OUTPUT);
 

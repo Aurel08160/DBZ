@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c67c73b9-6343-4ebf-b8cd-ee74d7e9b3fd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/view.class.php" afterPath="$PROJECT_DIR$/Classes/view.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fichiers/css/style.css" afterPath="$PROJECT_DIR$/Fichiers/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="DBZ.iws" />
@@ -31,15 +34,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9183908">
-              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+            <state vertical-scroll-proportion="-47.73077">
+              <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
               <folding>
-                <marker date="1455802587879" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
-                <marker date="1455802587879" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
-                <marker date="1455802587879" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
+                <marker date="1455802599672" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
+                <marker date="1455802599672" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
+                <marker date="1455802599672" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
               </folding>
             </state>
           </provider>
@@ -48,8 +51,26 @@
       <file leaf-file-name="view.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classes/view.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+            <state vertical-scroll-proportion="-28.192308">
+              <caret line="71" column="115" selection-start-line="71" selection-start-column="115" selection-end-line="71" selection-end-column="115" />
+              <folding>
+                <marker date="1455889271877" expanded="true" signature="649:798" placeholder="..." />
+                <marker date="1455889271877" expanded="true" signature="670:779" placeholder="..." />
+                <marker date="1455889271877" expanded="true" signature="1122:1135" placeholder="..." />
+                <marker date="1455889271877" expanded="true" signature="2488:2763" placeholder="..." />
+                <marker date="1455889271877" expanded="true" signature="2501:2629" placeholder="..." />
+                <marker date="1455889271877" expanded="true" signature="2642:2749" placeholder="..." />
+                <marker date="1455889271877" expanded="true" signature="2655:2720" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fichiers/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.80437285">
+              <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -95,8 +116,9 @@
       <list>
         <option value="$PROJECT_DIR$/Config/ID-VARS-DB.ini" />
         <option value="$PROJECT_DIR$/Classes/model.class.php" />
-        <option value="$PROJECT_DIR$/Classes/view.class.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Classes/view.class.php" />
+        <option value="$PROJECT_DIR$/Fichiers/css/style.css" />
       </list>
     </option>
   </component>
@@ -140,7 +162,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -159,8 +180,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="- DBZ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DBZ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fichiers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="- DBZ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DBZ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fichiers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -187,7 +241,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2739872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2803838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -227,9 +281,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1455802587879" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
-            <marker date="1455802587879" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
-            <marker date="1455802587879" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
+            <marker date="1455802599672" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
+            <marker date="1455802599672" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1455802599672" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
           </folding>
         </state>
       </provider>
@@ -238,7 +292,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-          <folding />
+          <folding>
+            <marker date="1455889271877" expanded="true" signature="649:798" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="670:779" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="1122:1135" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2488:2763" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2501:2629" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2642:2749" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2655:2720" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -271,9 +333,113 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1455802587879" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
-            <marker date="1455802587879" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
-            <marker date="1455802587879" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
+            <marker date="1455802599672" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
+            <marker date="1455802599672" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1455802599672" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/view.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <marker date="1455889271877" expanded="true" signature="649:798" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="670:779" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="1122:1135" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2488:2763" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2501:2629" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2642:2749" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2655:2720" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config/ID-VARS-DB.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/model.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/pdo.connexion.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1455802599672" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
+            <marker date="1455802599672" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1455802599672" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/view.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <marker date="1455889271877" expanded="true" signature="649:798" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="670:779" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="1122:1135" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2488:2763" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2501:2629" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2642:2749" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2655:2720" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config/ID-VARS-DB.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/model.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/pdo.connexion.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1455802599672" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
+            <marker date="1455802599672" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1455802599672" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
           </folding>
         </state>
       </provider>
@@ -282,7 +448,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="81" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
-          <folding />
+          <folding>
+            <marker date="1455889271877" expanded="true" signature="649:798" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="670:779" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="1122:1135" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2488:2763" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2501:2629" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2642:2749" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2655:2720" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -315,9 +489,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
           <folding>
-            <marker date="1455802587879" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
-            <marker date="1455802587879" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
-            <marker date="1455802587879" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
+            <marker date="1455802599672" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
+            <marker date="1455802599672" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1455802599672" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
           </folding>
         </state>
       </provider>
@@ -326,7 +500,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1455889271877" expanded="true" signature="649:798" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="670:779" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="1122:1135" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2488:2763" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2501:2629" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2642:2749" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2655:2720" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -359,9 +541,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
           <folding>
-            <marker date="1455802587879" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
-            <marker date="1455802587879" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
-            <marker date="1455802587879" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
+            <marker date="1455802599672" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
+            <marker date="1455802599672" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1455802599672" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
           </folding>
         </state>
       </provider>
@@ -370,7 +552,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1455889271877" expanded="true" signature="649:798" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="670:779" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="1122:1135" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2488:2763" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2501:2629" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2642:2749" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2655:2720" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -403,9 +593,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
           <folding>
-            <marker date="1455802587879" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
-            <marker date="1455802587879" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
-            <marker date="1455802587879" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
+            <marker date="1455802599672" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
+            <marker date="1455802599672" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1455802599672" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
           </folding>
         </state>
       </provider>
@@ -414,7 +604,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1455889271877" expanded="true" signature="649:798" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="670:779" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="1122:1135" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2488:2763" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2501:2629" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2642:2749" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2655:2720" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -431,9 +629,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
           <folding>
-            <marker date="1455802587879" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
-            <marker date="1455802587879" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
-            <marker date="1455802587879" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
+            <marker date="1455802599672" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
+            <marker date="1455802599672" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1455802599672" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
           </folding>
         </state>
       </provider>
@@ -442,7 +640,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1455889271877" expanded="true" signature="649:798" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="670:779" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="1122:1135" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2488:2763" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2501:2629" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2642:2749" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2655:2720" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -459,9 +665,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
           <folding>
-            <marker date="1455802587879" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
-            <marker date="1455802587879" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
-            <marker date="1455802587879" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
+            <marker date="1455802599672" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
+            <marker date="1455802599672" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1455802599672" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
           </folding>
         </state>
       </provider>
@@ -470,7 +676,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1455889271877" expanded="true" signature="649:798" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="670:779" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="1122:1135" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2488:2763" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2501:2629" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2642:2749" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2655:2720" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -487,9 +701,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
           <folding>
-            <marker date="1455802587879" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
-            <marker date="1455802587879" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
-            <marker date="1455802587879" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
+            <marker date="1455802599672" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
+            <marker date="1455802599672" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1455802599672" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
           </folding>
         </state>
       </provider>
@@ -498,7 +712,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1455889271877" expanded="true" signature="649:798" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="670:779" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="1122:1135" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2488:2763" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2501:2629" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2642:2749" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2655:2720" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -506,14 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Config/ID-VARS-DB.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -534,23 +748,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/view.class.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-47.73077">
+          <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+          <folding>
+            <marker date="1455802599672" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
+            <marker date="1455802599672" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
+            <marker date="1455802599672" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config/ID-VARS-DB.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/Classes/view.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9183908">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        <state vertical-scroll-proportion="-28.192308">
+          <caret line="71" column="115" selection-start-line="71" selection-start-column="115" selection-end-line="71" selection-end-column="115" />
           <folding>
-            <marker date="1455802587879" expanded="true" signature="729:779" placeholder="DELETE FROM ..." />
-            <marker date="1455802587879" expanded="true" signature="1221:1273" placeholder="SELECT * FRO..${$_GET['T']}..." />
-            <marker date="1455802587879" expanded="true" signature="2356:2370" placeholder="SELECT * FRO..${$_GET[&quot;T&quot;]}..." />
+            <marker date="1455889271877" expanded="true" signature="649:798" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="670:779" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="1122:1135" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2488:2763" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2501:2629" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2642:2749" placeholder="..." />
+            <marker date="1455889271877" expanded="true" signature="2655:2720" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fichiers/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.80437285">
+          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
