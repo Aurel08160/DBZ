@@ -67,7 +67,27 @@ if(isset($_GET["T"]) && isset($_GET["req"])){
             $sql .= " WHERE $first_key = $first_val";
             $MODEL->Exec_request($sql);
             header("Location: index.php?T=".$_GET['T']."&req=List");
+            exit();
         }
+    }
+    elseif($_GET["req"]=="Add"){
+        if(isset($_POST["Ajout"])){
+            $sql = "INSERT INTO ".$_GET['T']." VALUES(";
+            foreach($_POST as $key => $value){
+                if($key!="Ajout") {
+                    if (empty($value)) $value = "";
+                    $val = intval($value);
+                    if (strval($val) != $value) $sql .= "'$value', ";
+                    else $sql .= $value.", ";
+                }
+            }
+            $sql = rtrim($sql, ", ");
+            $sql .= ")";
+            $MODEL->Exec_request($sql);
+            header("Location: index.php?T=".$_GET['T']."&req=List");
+            exit();
+        }
+        else $OUTPUT .= View::Add_row($MODEL->request("DESCRIBE ".$_GET['T']));
     }
     else{
         $OUTPUT .= View::liste($MODEL->request("SELECT * FROM " . $_GET["T"]));

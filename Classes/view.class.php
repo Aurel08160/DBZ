@@ -26,7 +26,8 @@ class View {
         $content = "
             <nav>
                 <ul>
-                    <li><a href='?T=".$_GET['T']."&amp;req=List'>Lister champ</a></li>
+                    <li><a href='?T=".$_GET['T']."&amp;req=List'>Liste enregistrements</a></li>
+                    <li><a href='?T=".$_GET['T']."&amp;req=Add'>Ajouter enregistrement</a></li>
                 </ul>
             </nav>
         ";
@@ -72,14 +73,29 @@ class View {
                 $form .= "<div class='row'><label>$key2</label><input type='text' name='$key2' placeholder='$key2' value='$v2'></div>";
             }
         }
-        $form.="<input type='submit' name='Modif' value='Modifier'>";
+        $form.="<input type='submit' name='Modif' value='Modifier'>
+            </form>
+        ";
 
         return $form;
+    }
 
+    public static function Add_row($res){
+        $form = "<form method='POST' action='?T=".$_GET['T']."&amp;req=Add'>";
+
+        foreach($res as $key => $value){
+            $form .= "<div class='row'><label>".$value['Field']."</label><input type='text' name='".$value["Field"]."'></div>";
+        }
+
+        $form .= "<input type='submit' value='Ajouter' name='Ajout'>
+                </form>
+        ";
+
+        return $form;
     }
 
     // html final rendering
-    public static function HTML ($title, $contener) {
+    public static function HTML ($title, $contener){
       echo "<html>
       <head>
         <title>".$title."</title>
